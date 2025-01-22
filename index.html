@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <div class="login-container">
+    <h2>Login</h2>
+    <div class="form-group">
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="Adresse Email">
+        <alert class="Mailerror">Email incorrect</alert>
+    </div>
+    <div class="form-group">
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" placeholder="Mot de passe">
+        <alert class="Passworderror">Mot de passe incorrect</alert>
+        <alert class="errorall">Identifiant et Mot de passe incorrect </alert>
+    </div>
+    <button class="btn" id="login-btn">Login</button>
+    <div class="error-message" id="error-message" style="display: none;"></div>
+</div>
+</body>
+</html>
